@@ -3,24 +3,27 @@ class PostgreSQL():
     pd = __import__('pandas')
 
     #Read PostgreSQL
-    def read_postgres(name_table:str = None,
-                      schema:str = None,
-                      database:str = 'postgres',
-                      user:str = 'pecista',
-                      password:str = 'bueno123',
-                      host:str = '10.4.1.96',
-                      port:str = '5432',
-                      query:str='') -> pd.DataFrame:
+    def read_postgres(name_table:str=None,
+                      schema:str=None,
+                      database:str='postgres',
+                      user:str='pecista',
+                      password:str='bueno123',
+                      host:str='10.4.1.96',
+                      port:str='5432',
+                      query:str='',
+                      full_query:str='') -> pd.DataFrame:
 
 
         import psycopg2
         from psycopg2 import Error
         import pandas as pd
 
-        if len(query) < 1:
-            query_execute = f'SELECT * FROM "{schema}".{name_table.upper()}'
-        else:
+        if len(full_query) >= 1:
+            query_execute = full_query
+        elif len(query) >= 1:
             query_execute = f'SELECT * FROM "{schema}".{name_table.upper()} {query}'
+        else:
+            query_execute = f'SELECT * FROM "{schema}".{name_table.upper()}'
 
         try:
             connection = psycopg2.connect(user=user,
