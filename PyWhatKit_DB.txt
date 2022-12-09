@@ -1,0 +1,540 @@
+Date: 8/12/2022
+Time: 13:52
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 03 TABLE.png
+Caption: Resumo mensal | ASA NORTE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 13:52
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 03 TABLE.png
+Caption: Resumo mensal | ASA NORTE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 13:53
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 03 TABLE.png
+Caption: Resumo mensal | ASA NORTE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 13:53
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 04 TABLE.png
+Caption: Resumo mensal | CEILÂNDIA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 13:53
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 04 TABLE.png
+Caption: Resumo mensal | CEILÂNDIA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 13:54
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 04 TABLE.png
+Caption: Resumo mensal | CEILÂNDIA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 13:54
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 05 TABLE.png
+Caption: Resumo mensal | GAMA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 13:54
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 05 TABLE.png
+Caption: Resumo mensal | GAMA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 13:55
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 05 TABLE.png
+Caption: Resumo mensal | GAMA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 13:55
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 06 TABLE.png
+Caption: Resumo mensal | SOF SUL - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 13:56
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 06 TABLE.png
+Caption: Resumo mensal | SOF SUL - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 13:56
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 06 TABLE.png
+Caption: Resumo mensal | SOF SUL - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 13:56
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE VO TABLE.png
+Caption: Resumo mensal | E-COMMERCE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 13:57
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE VO TABLE.png
+Caption: Resumo mensal | E-COMMERCE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 13:57
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE VO TABLE.png
+Caption: Resumo mensal | E-COMMERCE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 14:12
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 03 TABLE.png
+Caption: Resumo mensal | ASA NORTE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 14:13
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 03 TABLE.png
+Caption: Resumo mensal | ASA NORTE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 14:13
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 03 TABLE.png
+Caption: Resumo mensal | ASA NORTE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 14:14
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 04 TABLE.png
+Caption: Resumo mensal | CEILÂNDIA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 14:14
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 04 TABLE.png
+Caption: Resumo mensal | CEILÂNDIA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 14:14
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 04 TABLE.png
+Caption: Resumo mensal | CEILÂNDIA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 14:15
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 05 TABLE.png
+Caption: Resumo mensal | GAMA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 14:15
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 05 TABLE.png
+Caption: Resumo mensal | GAMA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 14:15
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 05 TABLE.png
+Caption: Resumo mensal | GAMA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 14:16
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 06 TABLE.png
+Caption: Resumo mensal | SOF SUL - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 14:16
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 06 TABLE.png
+Caption: Resumo mensal | SOF SUL - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 14:16
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 06 TABLE.png
+Caption: Resumo mensal | SOF SUL - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 14:17
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE VO TABLE.png
+Caption: Resumo mensal | E-COMMERCE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 14:17
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE VO TABLE.png
+Caption: Resumo mensal | E-COMMERCE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 14:18
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE VO TABLE.png
+Caption: Resumo mensal | E-COMMERCE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 15:8
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 03 TABLE.png
+Caption: Resumo mensal | ASA NORTE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 15:9
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 03 TABLE.png
+Caption: Resumo mensal | ASA NORTE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 15:9
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 03 TABLE.png
+Caption: Resumo mensal | ASA NORTE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 15:10
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 04 TABLE.png
+Caption: Resumo mensal | CEILÂNDIA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 15:10
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 04 TABLE.png
+Caption: Resumo mensal | CEILÂNDIA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 15:10
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 04 TABLE.png
+Caption: Resumo mensal | CEILÂNDIA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 15:11
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 05 TABLE.png
+Caption: Resumo mensal | GAMA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 15:11
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 05 TABLE.png
+Caption: Resumo mensal | GAMA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 15:11
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 05 TABLE.png
+Caption: Resumo mensal | GAMA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 15:12
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 06 TABLE.png
+Caption: Resumo mensal | SOF SUL - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 15:12
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 06 TABLE.png
+Caption: Resumo mensal | SOF SUL - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 15:12
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 06 TABLE.png
+Caption: Resumo mensal | SOF SUL - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 15:13
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE VO TABLE.png
+Caption: Resumo mensal | E-COMMERCE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 15:14
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE VO TABLE.png
+Caption: Resumo mensal | E-COMMERCE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 15:14
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE VO TABLE.png
+Caption: Resumo mensal | E-COMMERCE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:16
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 03 TABLE.png
+Caption: Resumo mensal | ASA NORTE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:16
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 03 TABLE.png
+Caption: Resumo mensal | ASA NORTE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:17
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 03 TABLE.png
+Caption: Resumo mensal | ASA NORTE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:17
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 04 TABLE.png
+Caption: Resumo mensal | CEILÂNDIA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:17
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 04 TABLE.png
+Caption: Resumo mensal | CEILÂNDIA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:18
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 04 TABLE.png
+Caption: Resumo mensal | CEILÂNDIA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:18
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 05 TABLE.png
+Caption: Resumo mensal | GAMA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:19
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 05 TABLE.png
+Caption: Resumo mensal | GAMA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:19
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 05 TABLE.png
+Caption: Resumo mensal | GAMA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:19
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 06 TABLE.png
+Caption: Resumo mensal | SOF SUL - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:20
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 06 TABLE.png
+Caption: Resumo mensal | SOF SUL - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:20
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 06 TABLE.png
+Caption: Resumo mensal | SOF SUL - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:20
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE VO TABLE.png
+Caption: Resumo mensal | E-COMMERCE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:21
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE VO TABLE.png
+Caption: Resumo mensal | E-COMMERCE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:21
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE VO TABLE.png
+Caption: Resumo mensal | E-COMMERCE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:55
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 03 TABLE.png
+Caption: Resumo mensal | ASA NORTE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:56
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 03 TABLE.png
+Caption: Resumo mensal | ASA NORTE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:56
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 03 TABLE.png
+Caption: Resumo mensal | ASA NORTE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:57
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 04 TABLE.png
+Caption: Resumo mensal | CEILÂNDIA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:57
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 04 TABLE.png
+Caption: Resumo mensal | CEILÂNDIA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:57
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 04 TABLE.png
+Caption: Resumo mensal | CEILÂNDIA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:58
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 05 TABLE.png
+Caption: Resumo mensal | GAMA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:58
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 05 TABLE.png
+Caption: Resumo mensal | GAMA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:58
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 05 TABLE.png
+Caption: Resumo mensal | GAMA - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:59
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 06 TABLE.png
+Caption: Resumo mensal | SOF SUL - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:59
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 06 TABLE.png
+Caption: Resumo mensal | SOF SUL - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 16:59
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 06 TABLE.png
+Caption: Resumo mensal | SOF SUL - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 17:0
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE VO TABLE.png
+Caption: Resumo mensal | E-COMMERCE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 17:0
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE VO TABLE.png
+Caption: Resumo mensal | E-COMMERCE - 08-12-2022
+--------------------
+Date: 8/12/2022
+Time: 17:1
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE VO TABLE.png
+Caption: Resumo mensal | E-COMMERCE - 08-12-2022
+--------------------
+Date: 9/12/2022
+Time: 7:57
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 03 TABLE.png
+Caption: Resumo mensal | ASA NORTE - 09-12-2022
+--------------------
+Date: 9/12/2022
+Time: 7:57
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 03 TABLE.png
+Caption: Resumo mensal | ASA NORTE - 09-12-2022
+--------------------
+Date: 9/12/2022
+Time: 7:57
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 03 TABLE.png
+Caption: Resumo mensal | ASA NORTE - 09-12-2022
+--------------------
+Date: 9/12/2022
+Time: 7:58
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 04 TABLE.png
+Caption: Resumo mensal | CEILÂNDIA - 09-12-2022
+--------------------
+Date: 9/12/2022
+Time: 7:58
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 04 TABLE.png
+Caption: Resumo mensal | CEILÂNDIA - 09-12-2022
+--------------------
+Date: 9/12/2022
+Time: 7:58
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 04 TABLE.png
+Caption: Resumo mensal | CEILÂNDIA - 09-12-2022
+--------------------
+Date: 9/12/2022
+Time: 7:59
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 05 TABLE.png
+Caption: Resumo mensal | GAMA - 09-12-2022
+--------------------
+Date: 9/12/2022
+Time: 7:59
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 05 TABLE.png
+Caption: Resumo mensal | GAMA - 09-12-2022
+--------------------
+Date: 9/12/2022
+Time: 8:0
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 05 TABLE.png
+Caption: Resumo mensal | GAMA - 09-12-2022
+--------------------
+Date: 9/12/2022
+Time: 8:0
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE 06 TABLE.png
+Caption: Resumo mensal | SOF SUL - 09-12-2022
+--------------------
+Date: 9/12/2022
+Time: 8:0
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE 06 TABLE.png
+Caption: Resumo mensal | SOF SUL - 09-12-2022
+--------------------
+Date: 9/12/2022
+Time: 8:1
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE 06 TABLE.png
+Caption: Resumo mensal | SOF SUL - 09-12-2022
+--------------------
+Date: 9/12/2022
+Time: 8:1
+Group ID: LK4LDajkH52BNydoLGGD2d
+Image: TESTE VO TABLE.png
+Caption: Resumo mensal | E-COMMERCE - 09-12-2022
+--------------------
+Date: 9/12/2022
+Time: 8:2
+Group ID: EBLX0fxYfvuHL7jZ9CZECQ
+Image: TESTE VO TABLE.png
+Caption: Resumo mensal | E-COMMERCE - 09-12-2022
+--------------------
+Date: 9/12/2022
+Time: 8:2
+Group ID: I4y7EAVfns629NvfoLUtGI
+Image: TESTE VO TABLE.png
+Caption: Resumo mensal | E-COMMERCE - 09-12-2022
+--------------------
