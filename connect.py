@@ -5,11 +5,6 @@ class PostgreSQL():
     #Read PostgreSQL
     def read_postgres(name_table:str=None,
                       schema:str=None,
-                      database:str='postgres',
-                      user:str='pecista',
-                      password:str='bueno123',
-                      host:str='10.4.1.96',
-                      port:str='5432',
                       query:str='',
                       full_query:str='') -> pd.DataFrame:
 
@@ -17,6 +12,11 @@ class PostgreSQL():
         import psycopg2
         from psycopg2 import Error
         import pandas as pd
+
+        import json
+
+        with open('headers.json', encoding='utf-8') as meu_json:
+            headers = json.load(meu_json)
 
         if len(full_query) >= 1:
             query_execute = full_query
@@ -26,11 +26,11 @@ class PostgreSQL():
             query_execute = f'SELECT * FROM "{schema}".{name_table.upper()}'
 
         try:
-            connection = psycopg2.connect(user=user,
-                                          password=password,
-                                          host=host,
-                                          port=port,
-                                          database=database)
+            connection = psycopg2.connect(user=headers['user'],
+                                          password=headers['password'],
+                                          host=headers['host'],
+                                          port=headers['port'],
+                                          database=headers['database'])
 
             cursor = connection.cursor()
 
