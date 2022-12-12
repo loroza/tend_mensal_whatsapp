@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[517]:
+# In[1026]:
 
 
 import pandas as pd
@@ -18,7 +18,7 @@ import shutil
 print('Iniciando o envio as ' + dt.datetime.now().strftime('%H:%M:%S'))
 
 
-# In[518]:
+# In[1027]:
 
 
 def proportion_size(pixels:int=None, size:int=None, padrao:int=2160):
@@ -26,7 +26,7 @@ def proportion_size(pixels:int=None, size:int=None, padrao:int=2160):
     return sizing
 
 
-# In[519]:
+# In[1028]:
 
 
 def bg_colors(dataframe, datetime:str, dia_util:str):
@@ -64,7 +64,7 @@ def bg_colors(dataframe, datetime:str, dia_util:str):
     return colors
 
 
-# In[520]:
+# In[1029]:
 
 
 def font_projecao_mensal(dataframe, datetime:str, dia_util:str, principal_color:str):
@@ -97,7 +97,7 @@ def font_projecao_mensal(dataframe, datetime:str, dia_util:str, principal_color:
     return colors
 
 
-# In[521]:
+# In[1030]:
 
 
 def font_rendimento(dataframe, percents:str, datetime:str, dia_util:str, principal_color:str):
@@ -137,13 +137,13 @@ def font_rendimento(dataframe, percents:str, datetime:str, dia_util:str, princip
 
 # # Parâmetros
 
-# In[522]:
+# In[1031]:
 
 
 _schema = 'H-1'
 
 
-# In[523]:
+# In[10]:
 
 
 _pixels = 890
@@ -151,16 +151,16 @@ _pixels = 890
 pixels_width = 2060 #int((_pixels/9) * 17)
 pixels_height = int(_pixels)
 
-print(f'Taxa de proporção: {pixels_height} x {pixels_width}')
+print(f'Taxa de proporção: \n ⇳: {pixels_height} ⬄: {pixels_width}')
 
 
-# In[524]:
+# In[1033]:
 
 
 date_query = date(int((dt.datetime.now().strftime('%Y-%m-%d').split('-')[0])), int((dt.datetime.now().strftime('%Y-%m-%d').split('-')[1])), 1).strftime('%Y-%m-%d')
 
 
-# In[525]:
+# In[1034]:
 
 
 codigos_kaizen = [(         'PECISTA', '02608'),
@@ -180,7 +180,7 @@ codigos_kaizen = [(         'PECISTA', '02608'),
                   (     'USO INTERNO', '20693')]
 
 
-# In[526]:
+# In[1035]:
 
 
 lista_lojas = [('01',             'CD', '#000000', 'ⒸⒹ', False),
@@ -192,7 +192,7 @@ lista_lojas = [('01',             'CD', '#000000', 'ⒸⒹ', False),
                ('VO', '05. E-COMMERCE', '#FFC000', 'Ⓔ-ⒸⓄⓂⓂⒺⓇⒸⒺ', True)]
 
 
-# In[527]:
+# In[1036]:
 
 
 dias_semana = [(   'Sunday',       'Domingo'),
@@ -204,7 +204,7 @@ dias_semana = [(   'Sunday',       'Domingo'),
                ( 'Saturday',        'Sábado')]
 
 
-# In[528]:
+# In[1037]:
 
 
 relatorio = 'TESTE'
@@ -213,13 +213,13 @@ relatorio_lower = relatorio.lower()
 relatorio_msg = relatorio_lower.replace(relatorio_lower.split()[0], relatorio_lower.split()[0].title())
 
 
-# In[529]:
+# In[1038]:
 
 
 caminho_imagem = 'Y:\\COMPRAS\\arquivo temporario analise atualizado\\DEPARTAMENTO COMPRAS\\10. CARLOS\\REPORT'
 
 
-# In[530]:
+# In[1039]:
 
 
 contatos = [('PrimeiraFoto', 'https://chat.whatsapp.com/LK4LDajkH52BNydoLGGD2d', True),
@@ -236,13 +236,13 @@ contatos = [('PrimeiraFoto', 'https://chat.whatsapp.com/LK4LDajkH52BNydoLGGD2d',
 
 # ## Clientes
 
-# In[531]:
+# In[1040]:
 
 
 df_cliente = PostgreSQL.read_postgres(name_table='cliente', schema=_schema)
 
 
-# In[532]:
+# In[1041]:
 
 
 df_cli_ped = PostgreSQL.read_postgres(name_table='cli_ped', schema=_schema, query=f'WHERE DT_CADASTR >= \'{date_query}\'')
@@ -250,19 +250,19 @@ df_cli_ped = PostgreSQL.read_postgres(name_table='cli_ped', schema=_schema, quer
 
 # ## Pedidos
 
-# In[533]:
+# In[1042]:
 
 
 df_pedido = PostgreSQL.read_postgres(name_table='pedido', schema=_schema, query=f'WHERE DT_EMISSAO >= \'{date_query}\'')
 
 
-# In[534]:
+# In[1043]:
 
 
 df_pedido['VALOR_TOT'] = df_pedido['VALOR_TOT'].astype(float)
 
 
-# In[535]:
+# In[1044]:
 
 
 for (kaizen, codcli_kaizen) in tqdm(codigos_kaizen):
@@ -270,27 +270,27 @@ for (kaizen, codcli_kaizen) in tqdm(codigos_kaizen):
     df_pedido = df_pedido[df_pedido['CODCLI'] != codcli_kaizen]
 
 
-# In[536]:
+# In[1045]:
 
 
 df_pedido = df_pedido[df_pedido['CODVDE'] != '0001']
 df_pedido = df_pedido[df_pedido['CODVDE'] != '0100']
 
 
-# In[537]:
+# In[1046]:
 
 
 df_pedido = df_pedido[df_pedido['TIPPED'] == 'V']
 
 
-# In[538]:
+# In[1047]:
 
 
 df_pedido = df_pedido[df_pedido['OBSERVA'].str.contains('REQ') != True]
 df_pedido = df_pedido[df_pedido['OBSERVA2'].str.contains('REQ') != True]
 
 
-# In[539]:
+# In[1048]:
 
 
 for i in tqdm(df_pedido.index):
@@ -300,7 +300,7 @@ for i in tqdm(df_pedido.index):
         df_pedido.loc[i, 'COD_LOJA'] = df_pedido.loc[i, 'CD_LOJA']
 
 
-# In[540]:
+# In[1049]:
 
 
 for i in tqdm(df_pedido.index):
@@ -310,13 +310,13 @@ for i in tqdm(df_pedido.index):
                                              (df_cli_ped['NU_PEDIDO'] == df_pedido.loc[i, 'NU_NOTA'])]['NU_CPFCNPJ'])[0]
 
 
-# In[541]:
+# In[1050]:
 
 
 df_pedido = pd.merge(df_pedido, df_cliente, how='inner', on='CODCLI')
 
 
-# In[542]:
+# In[1051]:
 
 
 for i in tqdm(df_pedido.index):
@@ -336,13 +336,13 @@ for i in tqdm(df_pedido.index):
 
 # ## Devolução
 
-# In[543]:
+# In[1052]:
 
 
 df_prod_ent = PostgreSQL.read_postgres(full_query=f'select a.*, (a.VL_PRECO*a.QT_DEVOLVE) as VL_TOTAL_DEV, b.IN_CLIFOR as IN_CLIFOR1, b.IN_CANCELA, UPPER(b.NFEENVSTAT) as NFEENVSTAT, c.FORMA_PGTO from "{_schema}".prod_ent a inner join "{_schema}".entrada b on a.CD_LOJA = b.CD_LOJA and a.SG_SERIE = b.SG_SERIE and a.NU_NOTA = b.NU_NOTA inner join "{_schema}".venda c on a.CD_LOJA = c.CD_LOJA and a.SG_ORIGEM = c.SERIE and a.NU_ORIGEM = c.NU_NOTA where a.DT_EMISSAO >= \'{date_query}\'')
 
 
-# In[544]:
+# In[1053]:
 
 
 for (kaizen, codcli_kaizen) in tqdm(codigos_kaizen):
@@ -350,7 +350,7 @@ for (kaizen, codcli_kaizen) in tqdm(codigos_kaizen):
     df_prod_ent = df_prod_ent[df_prod_ent['CD_CLIENTE'] != codcli_kaizen]
 
 
-# In[545]:
+# In[1054]:
 
 
 df_prod_ent = df_prod_ent[(df_prod_ent['IN_CANCELA'] == 'N') &
@@ -361,7 +361,7 @@ df_prod_ent = df_prod_ent[(df_prod_ent['IN_CANCELA'] == 'N') &
                           (df_prod_ent['NFEENVSTAT'].str.contains('DENEG') != True)]
 
 
-# In[546]:
+# In[1055]:
 
 
 for i in tqdm(df_prod_ent.index):
@@ -371,20 +371,20 @@ for i in tqdm(df_prod_ent.index):
         df_prod_ent.loc[i, 'COD_LOJA'] = df_prod_ent.loc[i, 'CD_LOJA']
 
 
-# In[547]:
+# In[1056]:
 
 
 df_prod_ent['VL_TOTAL_DEV'] = df_prod_ent['VL_TOTAL_DEV'].astype(float)
 
 
-# In[548]:
+# In[1057]:
 
 
 df_prod_ent = df_prod_ent.rename(columns={'CD_CLIENTE':'CODCLI'})
 df_prod_ent = pd.merge(df_prod_ent, df_cliente, how='inner', on='CODCLI')
 
 
-# In[549]:
+# In[1058]:
 
 
 for i in tqdm(df_prod_ent.index):
@@ -401,37 +401,51 @@ for i in tqdm(df_prod_ent.index):
 
 # ## Metas
 
-# In[550]:
+# In[1059]:
 
 
 df_metas = pd.read_excel('Y:\\COMPRAS\\arquivo temporario analise atualizado\\DEPARTAMENTO COMPRAS\\10. CARLOS\\PROJETOS\\EXCEL\\BASES\\DATAS.xlsx', sheet_name='Metas')
 
 
-# In[551]:
+# In[1060]:
 
 
 df_data = pd.read_excel('Y:\\COMPRAS\\arquivo temporario analise atualizado\\DEPARTAMENTO COMPRAS\\10. CARLOS\\PROJETOS\\EXCEL\\BASES\\DATAS.xlsx', sheet_name='Datas')
 
 
-# In[552]:
+# In[1061]:
+
+
+df_proporcional = pd.read_excel('Y:\\COMPRAS\\arquivo temporario analise atualizado\\DEPARTAMENTO COMPRAS\\10. CARLOS\\PROJETOS\\EXCEL\\BASES\\DATAS.xlsx', sheet_name='Proporcional')
+
+
+# In[1062]:
 
 
 df_datas = df_data[df_data['Mês - Ano'] == df_data[df_data['Data'] == date_query]['Mês - Ano'].values[0]].reset_index(drop=True)
 
 
-# In[553]:
+# In[1063]:
 
 
 df_meta_mes = df_metas[df_metas['Mês - Ano'] == df_datas['Mês - Ano'][0]]
 
 
-# In[554]:
+# In[1064]:
 
 
-df_meta_data = df_datas.drop(columns=['Dia', 'Mês', 'Ano', 'Dia da Semana', 'Nome - Mês', 'Semestre', 'Trimestre', 'Sequencial - Dia da Semana', 'Dias Úteis']).merge(df_meta_mes.drop(columns=['Mês', 'Ano', 'Dias Úteis', 'Qtd Sábados', 'Nome - Mês', 'Loja']), how='inner', on='Mês - Ano')
+df_meta_data = df_datas.drop(columns=['Dia', 'Mês', 'Ano', 'Dia da Semana', 'Nome - Mês', 'Semestre', 'Trimestre', 'Sequencial - Dia da Semana', 'Dias Úteis']).merge(df_meta_mes.drop(columns=['Mês', 'Ano', 'Dias Úteis', 'Qtd Sábados', 'Nome - Mês', 'Loja']), how='inner', on='Mês - Ano').rename(columns={'Cd_Loja': 'CD_LOJA'})
 
 
-# In[555]:
+# In[1065]:
+
+
+df_meta_data = df_meta_data.merge(df_proporcional, how='left', on=['CD_LOJA', 'Data'])
+
+df_meta_data['%'] = df_meta_data['%'].fillna(1)
+
+
+# In[1066]:
 
 
 for i in df_meta_data.index:
@@ -444,38 +458,40 @@ for i in df_meta_data.index:
     else:
         df_meta_data.loc[i, 'Meta'] = 0
 
-df_meta_data = df_meta_data.rename(columns={'Cd_Loja':'CD_LOJA', 'Data':'DT_EMISSAO'})
+    df_meta_data.loc[i, 'Meta'] = df_meta_data.loc[i, 'Meta'] * df_meta_data.loc[i, '%']
+
+df_meta_data = df_meta_data.rename(columns={'Data':'DT_EMISSAO'})
 
 
 # # Cálculo
 
-# In[556]:
+# In[1067]:
 
 
 df_venda_bruta = df_pedido.groupby(['COD_LOJA', 'DT_EMISSAO']).sum()[['VALOR_TOT']].reset_index().rename(columns={'COD_LOJA':'CD_LOJA'})
 
 
-# In[557]:
+# In[1068]:
 
 
 df_devolucao = df_prod_ent.groupby(['COD_LOJA', 'DT_EMISSAO']).sum()[['VL_TOTAL_DEV']].reset_index().rename(columns={'COD_LOJA':'CD_LOJA'})
 
 
-# In[558]:
+# In[1069]:
 
 
 df_venda_bruta_cnpj = df_pedido[df_pedido['TIPO_CLIENTE'] != 'CPF'].groupby(['COD_LOJA', 'DT_EMISSAO']).sum()[['VALOR_TOT']].reset_index().rename(columns={'COD_LOJA':'CD_LOJA'})
 df_devolucao_cnpj = df_prod_ent[df_prod_ent['TIPO_CLIENTE'] != 'CPF'].groupby(['COD_LOJA', 'DT_EMISSAO']).sum()[['VL_TOTAL_DEV']].reset_index().rename(columns={'COD_LOJA':'CD_LOJA'})
 
 
-# In[559]:
+# In[1070]:
 
 
 df_venda_bruta_cpf = df_pedido[df_pedido['TIPO_CLIENTE'] == 'CPF'].groupby(['COD_LOJA', 'DT_EMISSAO']).sum()[['VALOR_TOT']].reset_index().rename(columns={'COD_LOJA':'CD_LOJA'})
 df_devolucao_cpf = df_prod_ent[df_prod_ent['TIPO_CLIENTE'] == 'CPF'].groupby(['COD_LOJA', 'DT_EMISSAO']).sum()[['VL_TOTAL_DEV']].reset_index().rename(columns={'COD_LOJA':'CD_LOJA'})
 
 
-# In[560]:
+# In[1071]:
 
 
 df_final = pd.merge(df_venda_bruta, df_devolucao, how='outer', on=['CD_LOJA', 'DT_EMISSAO'])
@@ -486,13 +502,13 @@ df_final = df_final.reset_index(drop=True)
 df_final = pd.merge(df_meta_data, df_final, how='left', on=['CD_LOJA', 'DT_EMISSAO'])
 
 
-# In[561]:
+# In[1072]:
 
 
 df_final = df_final.fillna(0)
 
 
-# In[562]:
+# In[1073]:
 
 
 df_hoje = df_final
@@ -568,7 +584,7 @@ for i in tqdm(df_hoje.index):
         df_hoje.loc[i, '% DEV'] = df_hoje.loc[i, 'DEVOLUÇÃO'] / df_hoje.loc[i, 'VENDA BRUTA']
 
 
-# In[563]:
+# In[1074]:
 
 
 df_hoje = df_hoje.fillna(0)
@@ -576,7 +592,7 @@ df_hoje = df_hoje.fillna(0)
 
 # # 
 
-# In[564]:
+# In[1075]:
 
 
 def print_plot(principal_dataframe:str = None,
@@ -931,10 +947,27 @@ def print_plot(principal_dataframe:str = None,
     return print(f'{relatorio} {save_loja}TABLE.png\n')
 
 
-# In[566]:
+# In[1100]:
 
 
 date_msg = dt.datetime.now().strftime('%d-%m-%Y')
+
+print_plot(principal_dataframe=df_hoje,
+            lojas=lista_lojas,
+            save_image=caminho_imagem)
+
+for (contato, link, logico) in contatos:
+    if logico:
+        print(f'{date_msg} {contato} - {link}')
+        pwk.sendwhats_image(link.replace('https://chat.whatsapp.com/', ''),
+                            f'{relatorio} TABLE.png',
+                            f'Resumo mensal | Grupo - {date_msg}',
+                            tab_close=True,
+                            wait_time=10)
+
+
+# In[1076]:
+
 
 for (cod_loja, loja, cor, crypto, logico) in lista_lojas:
 
@@ -945,11 +978,13 @@ for (cod_loja, loja, cor, crypto, logico) in lista_lojas:
                    loja_=cod_loja,
                    save_image=caminho_imagem)
 
+        msg_loja = loja.replace('Â', 'A')
+
         for (contato, link, logico) in contatos:
             if logico:
                 print(f'{date_msg} {contato} - {link}')
                 pwk.sendwhats_image(link.replace('https://chat.whatsapp.com/', ''),
                                     f'{relatorio} {cod_loja} TABLE.png',
-                                    f'Resumo mensal | {loja[4:]} - {date_msg}',
+                                    f'Resumo mensal | {msg_loja[4:]} - {date_msg}',
                                     tab_close=True,
                                     wait_time=10)
