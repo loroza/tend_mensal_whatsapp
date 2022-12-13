@@ -36,8 +36,8 @@ Cada coluna contida na imagem acima é calculada da seguinte forma:
             ⮱ É atrelada aos dias úteis do mês.
 
     Obs.:
-        Dias proporcionais ⇨ Existem algumas anomalias que podem afetar a venda em geral, com isso, pode ser que ocorra o
-        fracionamento da meta daquele dia.
+        Dias proporcionais ⇨ Existem algumas anomalias que podem afetar a venda em geral, com isso, pode ser
+        que ocorra o fracionamento da meta daquele dia.
             Exemplo:
 
             A meta diária é R$ 1.000.000,00.
@@ -48,9 +48,9 @@ Cada coluna contida na imagem acima é calculada da seguinte forma:
 
 ⇨ Venda bruta [Venda SIAC]:
 
-    A venda bruta é calculada mediante uma série de filtros necessários para trazer um número de venda mais real possível. Sendo
-    assim, nesse número não poderá estar contido as requisições, pedidos para uso interno, pedidos de transferência,
-    pedidos de teste e/ou pedidos de devolução.
+    A venda bruta é calculada mediante uma série de filtros necessários para trazer um número de venda mais
+    real possível. Sendo assim, nesse número não poderá estar contido as requisições, pedidos para
+    uso interno, pedidos de transferência, pedidos de teste e/ou pedidos de devolução.
 
 
 ⇨ Venda líquida [Venda Líquida]:
@@ -61,9 +61,9 @@ Cada coluna contida na imagem acima é calculada da seguinte forma:
 
 ⇨ Devolução [Devolução]:
 
-    A devolução também é calculada mediante uma série de filtros para eliminar outras situações calculadas com a mesma base de
-    dados. Portanto, deverá ser desconsiderado as notas denegadas, notas de transferência, notas de teste, notas de devolução,
-    notas canceladas e/ou notas com naturezas específicas.
+    A devolução também é calculada mediante uma série de filtros para eliminar outras situações calculadas com
+    a mesma base de dados. Portanto, deverá ser desconsiderado as notas denegadas, notas de transferência,
+    notas de teste, notas de devolução, notas canceladas e/ou notas com naturezas específicas.
 
 
 ⇨ % de devolução [% Dev]:
