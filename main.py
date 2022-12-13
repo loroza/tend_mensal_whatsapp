@@ -14,6 +14,7 @@ import plotly.graph_objs as go
 import pywhatkit as pwk
 from html2image import Html2Image
 import shutil
+import pyautogui as gui
 
 print('Iniciando o envio as ' + dt.datetime.now().strftime('%H:%M:%S'))
 
@@ -956,11 +957,13 @@ print_plot(principal_dataframe=df_hoje,
             lojas=lista_lojas,
             save_image=caminho_imagem)
 
+gui.hotkey('ctrl', 'w')
+
 for (contato, link, logico) in contatos:
     if logico:
         print(f'{date_msg} {contato} - {link}')
         pwk.sendwhats_image(link.replace('https://chat.whatsapp.com/', ''),
-                            f'{relatorio} TABLE.png',
+                            f'{caminho_imagem}\\{relatorio} TABLE.png',
                             f'Resumo mensal | Grupo - {date_msg}',
                             tab_close=True,
                             wait_time=10)
@@ -980,11 +983,13 @@ for (cod_loja, loja, cor, crypto, logico) in lista_lojas:
 
         msg_loja = loja.replace('Â', 'A')
 
+        gui.hotkey('ctrl', 'w')
+
         for (contato, link, logico) in contatos:
             if logico:
                 print(f'{date_msg} {contato} - {link}')
                 pwk.sendwhats_image(link.replace('https://chat.whatsapp.com/', ''),
-                                    f'{relatorio} {cod_loja} TABLE.png',
+                                    f'{caminho_imagem}\\{relatorio} {cod_loja} TABLE.png',
                                     f'Resumo mensal | {msg_loja[4:]} - {date_msg}',
                                     tab_close=True,
                                     wait_time=10)
