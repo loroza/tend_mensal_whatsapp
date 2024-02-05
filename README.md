@@ -37,12 +37,12 @@ Cada coluna contida na imagem acima é calculada da seguinte forma:
 
     Obs.:
         Dias proporcionais ⇨ Existem algumas anomalias que podem afetar a venda em geral, com isso, pode ser
-        que ocorra o fracionamento da meta daquele dia.
+        que ocorra o fracionamento da meta em uma determinada data.
             Exemplo:
 
             A meta diária é R$ 1.000.000,00.
-            No dia 21/07/2026 teve uma partida do Brasil em uma disputa de Copa do Mundo.
-            O comercial reuniu-se e resolver aplicar uma meta proporcional a 70% da meta diária nesse dia.
+            No dia 21/07/2026 ocorre uma partida do Brasil em uma disputa de Copa do Mundo.
+            A equipe comercial reuniu-se e decidiram aplicar uma meta proporcional a 70% da meta diária nesse dia.
             Desta forma a meta daquele dia passa de R$ 1.000.000,00 para R$ 700.000,00.
 
 
